@@ -13,6 +13,21 @@
 
 <body>
     <h1>Home</h1>
+
+    <x-alert>
+
+        <x-slot name="header">
+            header
+        </x-slot>
+        nama saya components
+
+        <x-slot name="footer">
+            Footer
+        </x-slot>
+
+
+    </x-alert>
+
 </body>
 
 </html>
