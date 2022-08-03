@@ -45,15 +45,18 @@
 
                     <x-slot name="header">
                         <div class="alert alert-warning" role="alert">
-                            A simple warning alert—check it out!
+                            Header
                         </div>
                     </x-slot>
 
-                    Contents
+
+                    <div class="alert alert-danger" role="alert">
+                        Contents
+                    </div>
 
                     <x-slot name="footer">
                         <div class="alert alert-warning" role="alert">
-                            A simple warning alert—check it out!
+                            Footer
                         </div>
                     </x-slot>
                 </x-alert>
