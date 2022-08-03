@@ -18,16 +18,20 @@
 
     {{-- Components --}}
 
-    @component('components.alert')
-        @slot('header')
+    <x-alert>
+
+        <x-slot name="header">
             Header
-        @endslot
+        </x-slot>
+
         Hello ini adalah components
 
-        @slot('footer')
+        <x-slot name="footer">
             Footer
-        @endslot
-    @endcomponent
+        </x-slot>
+
+    </x-alert>
+
 
 </body>
 
