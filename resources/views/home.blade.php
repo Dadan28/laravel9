@@ -13,6 +13,7 @@
 
 <body>
     <h1>Home</h1>
+    <h4>Belajar laravel 9</h4>
 </body>
 
 </html>
