@@ -11,6 +11,8 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <title>{{ $title ?? 'Laravel 9' }}</title>
+
+    {{ $style ?? '' }}
 </head>
 
 <body>
@@ -21,7 +23,7 @@
     <div class="container">
         <div class="row mt-3">
             <div class="col-md-12">
-
+                {{ $slot }}
             </div>
         </div>
     </div>
